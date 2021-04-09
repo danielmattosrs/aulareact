@@ -3,9 +3,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {createDrawerNavogatior} from '@react-navigation/drawer'
 import {NavigationContainer} from '@react-navigation/native'
-import ListCliente from './components/Clients/ListClientes.js' 
 
-function HomeScreen(){
+function ListCliente(){
   return(
     <StatusBar
       animated={true}
@@ -17,19 +16,3 @@ function HomeScreen(){
     </StatusBar>
   )
 }
-
-
-
-
-export default function App() {
-  return ()
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
